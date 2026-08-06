@@ -6,17 +6,14 @@
 }
 
 :root{
-  /* base */
   --bg: #0a0a0b;
   --bg-soft: #111114;
   --bg-elev: #17171b;
 
-  /* texto */
   --ink: #f3f3ee;
   --muted: #93939c;
   --muted-dim: #5f5f68;
 
-  /* acento — assinatura da marca, extraída da logo (chrome + blue/violet/magenta) */
   --accent: #7c93ff;
   --accent-dim: #5a6fe0;
   --accent-ink: #ffffff;
@@ -25,17 +22,14 @@
   --accent-gradient: linear-gradient(100deg, #33b8ff 0%, #8b5cf6 55%, #e94ff5 100%);
   --accent-gradient-soft: linear-gradient(100deg, rgba(51,184,255,0.12), rgba(139,92,246,0.12) 55%, rgba(233,79,245,0.12) 100%);
 
-  /* acento secundário — usado com moderação */
   --violet: #8b5cf6;
   --violet-soft: rgba(139, 92, 246, 0.14);
 
-  /* linhas / superfícies */
   --line: rgba(255, 255, 255, 0.08);
   --line-strong: rgba(255, 255, 255, 0.16);
   --card: rgba(255, 255, 255, 0.025);
   --card-hover: rgba(255, 255, 255, 0.05);
 
-  /* tipografia */
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --font-body: 'Inter', sans-serif;
   --font-mono: 'JetBrains Mono', 'SFMono-Regular', monospace;
@@ -254,7 +248,7 @@ section h2,
 
 .hero-title{
   font-family: var(--font-display);
-  font-size: 72px;
+  font-size: 68px;
   font-weight: 700;
   color: var(--ink);
   line-height: 1.08;
@@ -278,6 +272,9 @@ section h2,
   font-size: 18px;
   color: var(--muted);
   max-width: 520px;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto; 
 
   animation: fadeUp 0.9s 0.22s ease forwards;
   opacity: 0;
