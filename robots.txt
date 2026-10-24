@@ -1,0 +1,11 @@
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://mw3digital.netlify.app/sitemap.xml

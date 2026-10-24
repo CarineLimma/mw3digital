@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    // ===== ELEMENTOS =====
     const tipo = document.getElementById("tipo");
     const quantidade = document.getElementById("quantidade");
     const resultado = document.getElementById("resultado");
